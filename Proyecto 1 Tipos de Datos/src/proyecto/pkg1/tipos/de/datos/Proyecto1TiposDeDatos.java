@@ -17,5 +17,5 @@ public class Proyecto1TiposDeDatos {
     public static void main(String[] args) {
         // TODO code application logic here
     }
-    
+//Si se puede    
 }
