@@ -32,7 +32,9 @@ imprimirNombre() ;
 suma2Numeros(5,10);
 System.out.println(suma2Numeros(5,10));
 
-// Siempre para poder imprimir colocar System.out.println(suma2Numeros(5,10)<---la funcion);
+// Siempre para poder imprimir colocar
+//System.out.println(suma2Numeros(5,10)<---la funcion);
+
     }
     
     
@@ -40,7 +42,49 @@ System.out.println(suma2Numeros(5,10));
       // void esta funcion no es de ningun tipo 
     
         public static void imprimirNombre(){
-        System.out.println("Adrian");
+              // para saltar una linea se coloca \n 
+        System.out.println("Adrian \n Jimenez ");
+        
+        //Propiedades 
+      
+        // sirve para poner tabulado ( da un espacio ) = \t
+        // \n <--> salto de linea 
+        //  \t <--> tabular 
+        //  \b  <--> borrar a la izquierda 
+        //  \f  <--> comienzo de pagina 
+        //  \r  <--> retroceder 
+       
+        
+        // para ver el numero de caracteres que tiene una palabra poner length()
+     
+     
+        String nombre = "   Adrian " ; 
+        System.out.println(nombre.length ());
+        
+         //elimina los espacios de los lados de las cadena de caracteres  .trim(
+        
+        System.out.println(nombre.trim());
+        
+        // .toUppersCase () es para hacer a toda la cadena en mayuscula
+        
+        System.out.println(nombre.toUpperCase());
+        
+        // .toLowerCase () s para poner en minusculas todas las letras 
+        
+        System.out.println(nombre.toLowerCase());
+        
+        //.replace para remplazar 
+        
+        System.out.println(nombre.replace(nombre , "Aldahir Jimenez "));
+        
+        //.split() es el valor con el que se divide la palabra 
+        
+        System.out.println(nombre.split(""));
+        
+
+        
+        // .t
+        
                 
                 }
        public static int suma2Numeros (int num1 ,int num2 ){
